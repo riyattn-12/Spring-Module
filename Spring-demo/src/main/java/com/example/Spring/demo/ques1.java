@@ -10,7 +10,7 @@ import org.springframework.stereotype.Component;
 public class ques1
 {
     @Autowired
-    private SortAlgo sortAlgo;
+    private SortAlgo sortAlgo;          //autowiring by type
 
     public ques1(SortAlgo sortAlgo) {
         this.sortAlgo = sortAlgo;
